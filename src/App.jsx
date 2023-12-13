@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
-import { useRoutes, BrowserRouter, Navigate } from "react-router-dom";
+import { useRoutes, HashRouter, Navigate } from "react-router-dom";
 import { Blog } from "./pages/Blog";
 import { Testimonials } from "./pages/Testimonials";
 import { Teachers } from "./pages/Teachers";
@@ -63,12 +63,12 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <div>
           <AppRoutes />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </React.StrictMode>
   );
 };
