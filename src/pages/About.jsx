@@ -29,7 +29,7 @@ export const About = () => {
           <h3>Nuestro Equipo</h3>
           <ul>
             <li>Profesora Ana Martínez - Directora Académica</li>
-            <li>Dr. Luis Ramírez - Experto en Fonética</li>
+            <li>Dr. Luis Ramíres - Experto en Fonética</li>
             <li>María Fernández - Especialista en Enseñanza Online</li>
           </ul>
           <ul>
